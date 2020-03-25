@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hospital Management| Lab Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../../admin/admin/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="../../admin/admin/css/style.css" rel='stylesheet' type='text/css' />
+<link rel="icon" href="favicon.ico" type="image/x-icon" >
+<link href="../../admin/admin/css/font-awesome.css" rel="stylesheet">
+<script src="../../admin/admin/js/jquery-1.11.1.min.js"></script>
+</head>
+<body style="background-image: url(../../admin/admin/images/l4.jpg) ;height:
+672px;" >
+<nav class="navbar navbar-default" style="padding: .7em; background:rgba(
+255,255,255,1);">
+ <div class="container-fluid">
+ <ul class="nav navbar-nav" style=" padding-left: 900px;">
+ <li><a href="index.php">Home</a></li>
+ <li><a href="treatmenthistory.php">Treatment History</a></li>
+ <li><a href="profile.php">Profile</a></li>
+ <li><a href="../index.php">Logout</a></li>
+ </ul>
+ </div>
+</nav>
+ 
+<div id="page-wrapper">
+ <div class="main-page container">
+
+ <!-- four-grids -->
+ <div class="row four-grids">
+ <div class="col-md-8 ticket-grid">
+ <div class="tickets">
+ <h2>Profile Update </h2>
+ <hr>
+ <form method="post" action="pupdate.php">
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="name" value="<?php echo
+"Name";?>" class="form-control" readonly/><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="phno" value="<?php echo
+"Contact No";?>" class="form-control"/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="addr" value="<?php echo
+"Address";?>" class="form-control"/><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="dis" value="<?php echo
+"Blood Group";?>" class="form-control" readonly/><br /> 
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="state" value="<?php echo "State"; ?>"
+class="form-control" readonly /><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="distr" value="<?php echo "District";
+?>" class="form-control" readonly/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="sex" value="<?php
+echo "sex";?>" class="form-control" readonly/><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="hname" class="form-control"
+value="<?php echo "Hospital Name"; ?>" readonly/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="age" value="<?php
+echo "Age"; ?>" class="form-control"/><br />
+ </div>
+ <div class="col-md-5"> 
+ <input type="text" name="dat" value="<?php echo
+"Date";?>" class="form-control" readonly/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="us" class="formcontrol" value="<?php echo "Username";?>" readonly /><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="ps" class="form-control"
+value="<?php echo "Password";?>"/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="height" class="formcontrol" value="<?php echo "Height";?>" readonly /><br />
+ </div>
+ <div class="col-md-5">
+ <input type="text" name="weight" class="form-control"
+value="<?php echo "Weight";?>"readonly/><br />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-5">
+ <input type="text" name="email" class="formcontrol" value="<?php echo "Email";?>" readonly /><br /> 
+ </div>
+ </div>
+
+ <input type="submit" name="submit" value="Submit"
+class="btn checkbox-inline btn-primary " />
+ </form>
+
+ <div class="clearfix"> </div>
+ </div>
+ </div>
+ <div class="clearfix"> </div>
+ </div>
+ <!-- //four-grids -->
+ </div>
+ </div>
+</body>
+</html> 
